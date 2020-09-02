@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Hello from './Hello';
+import AgeCheck from './AgeCheck';
+import Train from './Train'
+import Clock from './Clock'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Hello name="Francis!" /> */}
+    {/* <AgeCheck value="3" unit="yr"/> */}
+    {/* <Train training="OurTraining"/> */}
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );
