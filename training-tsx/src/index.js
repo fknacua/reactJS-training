@@ -7,6 +7,7 @@ import AgeCheck from './AgeCheck';
 import Train from './Train'
 import Clock from './Clock'
 import * as serviceWorker from './serviceWorker';
+import AnagramChecker from './AnagramChecker';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +15,8 @@ ReactDOM.render(
     {/* <Hello name="Francis!" /> */}
     {/* <AgeCheck value="3" unit="yr"/> */}
     {/* <Train training="OurTraining"/> */}
-    <Clock />
+    {/* <Clock /> */}
+    <AnagramChecker/>
   </React.StrictMode>,
   document.getElementById('root')
 );
