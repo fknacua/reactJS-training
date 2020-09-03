@@ -8,6 +8,7 @@ import Train from './Train'
 import Clock from './Clock'
 import * as serviceWorker from './serviceWorker';
 import AnagramChecker from './AnagramChecker';
+import StudentForm from './StudentForm';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <AgeCheck value="3" unit="yr"/> */}
     {/* <Train training="OurTraining"/> */}
     {/* <Clock /> */}
-    <AnagramChecker/>
+    {/* <AnagramChecker/> */}
+    <StudentForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
