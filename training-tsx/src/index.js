@@ -10,6 +10,8 @@ import * as serviceWorker from './serviceWorker';
 import AnagramChecker from './AnagramChecker';
 import SchoolForm from './SchoolForm';
 import SchoolLogin from './SchoolLogin';
+import Registration from './react-registration/registration';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,7 +22,8 @@ ReactDOM.render(
     {/* <Clock /> */}
     {/* <AnagramChecker/> */}
     {/* <SchoolForm /> */}
-    <SchoolLogin />
+    {/* <SchoolLogin /> */}
+    <Registration />
 
   </React.StrictMode>,
   document.getElementById('root')
