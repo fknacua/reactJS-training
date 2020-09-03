@@ -1,6 +1,6 @@
 import React from 'react';
 
-class StudentForm extends React.Component {
+class SchoolForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -48,14 +48,14 @@ class StudentForm extends React.Component {
 
     handleSubmit(event) {
         localStorage.setItem("School Record", JSON.stringify(this.state));
-        this.state = {
+        this.setState = ({
             schoolName: "",
             classes: 0,
             hasAircon: false
-        };
+        });
         event.preventDefault();
     }
 
 }
 
-export default StudentForm;
+export default SchoolForm;
