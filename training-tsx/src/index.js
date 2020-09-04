@@ -11,6 +11,8 @@ import AnagramChecker from './AnagramChecker';
 import SchoolForm from './SchoolForm';
 import SchoolLogin from './SchoolLogin';
 import Registration from './react-registration/registration';
+import SampleHttp from './react-http/sample-http';
+import Country from './react-http/country';
 
 
 ReactDOM.render(
@@ -23,7 +25,9 @@ ReactDOM.render(
     {/* <AnagramChecker/> */}
     {/* <SchoolForm /> */}
     {/* <SchoolLogin /> */}
-    <Registration />
+    {/* <Registration /> */}
+    {/* <SampleHttp /> */}
+    <Country />
 
   </React.StrictMode>,
   document.getElementById('root')
