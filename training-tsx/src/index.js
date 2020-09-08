@@ -13,6 +13,7 @@ import SchoolLogin from './SchoolLogin';
 import Registration from './react-registration/registration';
 import SampleHttp from './react-http/sample-http';
 import Country from './react-http/country';
+import Stepper from './react-routing/routing-stepper/stepper';
 
 
 ReactDOM.render(
@@ -27,7 +28,8 @@ ReactDOM.render(
     {/* <SchoolLogin /> */}
     {/* <Registration /> */}
     {/* <SampleHttp /> */}
-    <Country />
+    {/* <Country /> */}
+    <Stepper />
 
   </React.StrictMode>,
   document.getElementById('root')
